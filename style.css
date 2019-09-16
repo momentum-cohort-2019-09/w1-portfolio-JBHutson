@@ -1,7 +1,15 @@
 /* general style */
 
-.header_info{
-    display: block;
+* {
+    text-align: left;
+}
+
+.main_name{
+    text-align: center;
+}
+
+.main_nav{
+    text-align: center;
 }
 
 .main_name{
@@ -127,7 +135,7 @@
 }
 
 .classes{
-    list-style-type: disc;
+    list-style-type: none;
     margin-block-start: 0;
     margin-block-end: 0;
     margin-inline-start: 0px;
@@ -138,6 +146,7 @@
 /* project style */
 
 .project_name{
+    text-align: center;
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -146,10 +155,20 @@
     margin-inline-end: 0px;
 }
 
+.project_pic{
+    width: 100%;
+    height: auto;
+}
+
 .project_descrip{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+.github_link{
+    text-align: center;
+    border-bottom: 3px solid black;
 }
